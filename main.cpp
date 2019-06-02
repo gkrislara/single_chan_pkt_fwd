@@ -103,6 +103,10 @@ static char description[64] = "";                        /* used for free form d
 
 // Servers
 vector<Server_t> servers;
+servers.pushback(Server()); //add the following statements if not available in developer repository
+servers[0].address="54.229.214.112";// subject to change refer docs
+servers[0].port=1700;
+servers[0].port=true;
 
 // #############################################
 // #############################################
